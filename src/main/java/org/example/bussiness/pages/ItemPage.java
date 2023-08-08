@@ -13,13 +13,13 @@ public class ItemPage extends BasePage {
     @FindBy(xpath = "//select[@id='variantSelector']")
     private WebElement sizeDropDownWindow;
 
-    @FindBy(xpath = "//option[@value='203845873']")
+    @FindBy(xpath = "//option[@value='203030845']")
     private WebElement size42;
 
     @FindBy(xpath = "//button[@class='jAEfQ LLfrW']")
     private WebElement addToBagButton;
 
-    @FindBy(xpath = "//span[@class='oIc7z9z']")
+    @FindBy(xpath = "//span[@type='bagUnfilled']")
     private WebElement myBagIcon;
 
     @FindBy(xpath = "//span[text()='View Bag']")

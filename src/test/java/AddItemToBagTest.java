@@ -23,8 +23,9 @@ public class AddItemToBagTest extends TestBase {
         ItemPage itemPage = PageFactoryManager.getInstance(driver).getItemPage();
         itemPage.clickOnSizeDropDownWindow();
         itemPage.clickOnSize42();
+        sleep(2);
         itemPage.clickOnAddToBagButton();
-        sleep(5);
+        sleep(2);
         itemPage.moveToElement(itemPage.getMyBagIcon());
         itemPage.waitForElementToAppear(itemPage.getViewBagButton());
         itemPage.clickOnViewBagButton();
